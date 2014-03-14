@@ -1,0 +1,50 @@
+body {
+  font: 14px "DIN", Helvetica, Arial, sans-serif;
+  
+  background-color:#f1f1f2
+}
+
+a {
+  color: #00B7FF;
+}
+.videoContainer {
+    position: relative;
+    width: 260px;
+    height: 195px;
+    float:left;
+    margin:20px;
+
+}
+#remotes{
+    position: relative;
+}
+
+.videoContainer video {
+    width: 260px;
+    height: 195px;
+    float:left;
+
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 7px;
+    -webkit-box-sizing: border-box;
+}
+
+.volume_bar {
+    position: absolute;
+    width: 5px;
+    height: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #12acef;
+}
+.main-container{
+    position: absolute;
+    top: 50px;
+    left:50px;
+    right:50px;
+
+    background-color: #76b3e1;
+    border-radius: 10px;
+}
